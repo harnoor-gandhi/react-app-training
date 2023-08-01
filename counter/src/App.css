@@ -1,0 +1,16 @@
+.App {
+  text-align: center;
+}
+
+.write{
+  font-size: 300px;
+  margin-top: 150px;
+}
+
+.typeofbutton{
+  padding: 20px;
+  font-size: 20px;
+  color: gainsboro;
+  background-color: rgb(36, 96, 86);
+  margin: 10px;
+}
