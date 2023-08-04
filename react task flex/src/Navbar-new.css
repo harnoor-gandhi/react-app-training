@@ -1,0 +1,35 @@
+.navbarContainer {
+	display: flex;
+	flex-direction: row;
+	padding: 0 180px;
+}
+
+.navLogo {
+	height: 65px;
+	width: 190px;
+}
+
+.navLink {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: row;
+	padding-left: 45px;
+	font-size: medium;
+	color: grey;
+	font-weight: 500;
+}
+
+.navLinkArrow {
+	height: 8px;
+	width: 9px;
+	padding: 0 10px;
+}
+
+svg path {
+	stroke-width: 10px;
+}
+
+.navSep {
+	color: rgba(128, 128, 128, 0.22);
+}
