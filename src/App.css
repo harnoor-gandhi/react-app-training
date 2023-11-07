@@ -1,0 +1,334 @@
+.header {
+  /* padding: 10px 80px 10px 80px; */
+  /* border: 2px solid black; */
+  background-color: rgb(44, 44, 43);
+  position: fixed;
+  top: 0;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  z-index: 1000;
+}
+.logo{
+  /* border: 2px solid black; */
+  color: yellow;
+  font-size: xx-large;
+  padding: 20px 20px 30px;
+  /* margin-top:  ; */
+  font-weight: bold;
+}
+.list{
+  /* border: 2px solid black; */
+  margin-right: 100px;
+  display: flex;
+  flex-direction: row;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: right;
+  /* border: 2px solid black; */
+
+}
+.login{
+  margin-right: 20px;
+  /* margin-top: 10px; */
+
+}
+ul > li{
+  margin-top: 15px;
+  /* margin-right: 200px; */
+}
+ul > a {
+  list-style-type: none;
+  /* padding: 20px; */
+  color: white;
+  margin-right: 40px;
+  margin-top: 10px;
+}
+/* .container1 {
+  height:2000px ;
+  /* background-image: url(./images/Run-Colors-Sneaker-Store-by-Modelina-Architekci-1.jpg); */
+  /* background-size: cover;
+  border: 2px solid white;
+  /* width: vw; */
+  /* position: relative; */ 
+
+/* } */ 
+.home{
+  width: 100vw
+}
+.login-container {
+  background-color: #fff;
+  /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); */
+  border-radius: 8px;
+  padding: 60px;
+  max-width: 300px;
+  /* width: 100%; */
+  text-align: center;
+  margin:  auto;
+  color: black;
+}
+
+.login-container h2 {
+  margin: 0;
+}
+
+.login-container > input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 20px;
+  /* border: 1px solid #ccc; */
+  border-radius: 5px;
+}
+
+.login-container button {
+  background-color: #f3f1ea;
+  color: #982626;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 10px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+/* .login-container button:hover {
+
+} */
+
+.product-card {
+  width: 250px;
+  height: 520px;
+  border: 1px solid rgb(11, 121, 232);
+  margin: 10px;
+  margin-bottom: 50px;
+  /* margin-top :150px;  */
+}
+.prodimg{
+  width: 100%;
+  height: 180px;
+  box-shadow: 2px;
+}
+.addtocartbutton{
+  width: 100%;
+  /* padding: -1px; */
+  /* bottom: 5px; */
+  color: white;
+  background-color: rgb(154, 149, 149)
+  
+}
+/* .price > .addtocartbutton   :hover{
+  /* color:  */
+ /* }  */
+
+
+.image{
+  width: 100%;
+  height: 100%;
+}
+.product-card h2 {
+  font-size: 0.7rem;
+  font-size: medium;
+
+}
+
+.product-card p {
+  font-size: 0.8rem;
+  color: #260c0c;
+  font-weight: bold;
+
+}
+
+.product-card:hover {
+  transform: scale(1.1);
+  cursor: pointer;
+}
+
+.product-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-top: 100px;
+}
+
+.registration-container{
+margin-left : 100px;
+}
+.signup-container {
+  background-color: #f5f5f5;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  padding: 20px;
+  max-width: 300px;
+  margin: 20px auto;
+  
+  text-align: center;
+  color: #333;
+}
+
+.signup-container h2 {
+  margin: 0;
+  color: #333;
+}
+
+.signup-container input {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid #302525;
+  border-radius: 5px;
+}
+
+.password-input {
+  position: relative;
+}
+
+.password-input input {
+  width: calc(100% - 40px);
+  margin-bottom: 10px;
+}
+
+.toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.search_functionality{
+  margin-right: 350px;
+}
+.cart-container {
+  background-color: #f5f5f5;
+  padding: 20px;
+  padding-left: 350px;
+}
+
+.cart-item {
+  display: flex;
+  margin: 10px;
+  border: 1px solid #ddd;
+  padding: 10px;
+}
+
+.cart-image {
+  width: 100px;
+  height: 100px;
+}
+
+.cart-details {
+  flex: 1;
+  margin-left: 20px;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+}
+
+.quantity-controls button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.checkout {
+  margin-top: 20px;
+  text-align: right;
+}
+
+.checkout button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.my-orders-container {
+  margin: 20px;
+}
+
+.my-orders-heading {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.no-orders-message {
+  font-size: 18px;
+  color: #888;
+  text-align: center;
+}
+
+.orders-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.order-card {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 20px;
+  width: 300px;
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+.order-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.order-number {
+  font-size: 18px;
+}
+
+.order-timestamp {
+  font-size: 14px;
+  color: #888;
+}
+
+.order-total-bill {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.order-products-list {
+  list-style: none;
+  padding: 0;
+}
+
+.order-product {
+  margin-top: 10px;
+}
+
+.product-title {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.product-quantity {
+  font-size: 14px;
+}
+
+.product-price {
+  font-size: 14px;
+  color: #888;
+}
+
+.learn-more-button{
+  font-size  : 12px
+}
